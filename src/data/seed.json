@@ -1,0 +1,134 @@
+{
+  "prestaciones": [
+    {
+      "id": "limpieza-dental",
+      "nombre": "Limpieza Dental",
+      "descripcion": "Limpieza profunda profesional para eliminar sarro y placa bacteriana, manteniendo tus dientes sanos y brillantes.",
+      "descripcionLarga": "La limpieza dental profesional es un procedimiento fundamental para mantener la salud bucal. Durante el tratamiento, eliminamos el sarro y la placa bacteriana que se acumula en lugares de difícil acceso con el cepillado diario. Utilizamos instrumentos de ultrasonido y técnicas de pulido que dejan tus dientes limpios, brillantes y protegidos. Recomendamos realizar este procedimiento cada 6 meses.",
+      "duracion": 30,
+      "precio": 15000,
+      "imagen": "/servicios/limpieza.jpg"
+    },
+    {
+      "id": "blanqueamiento",
+      "nombre": "Blanqueamiento Dental",
+      "descripcion": "Tratamiento estético para lograr una sonrisa más blanca y luminosa en una sola sesión.",
+      "descripcionLarga": "Nuestro blanqueamiento dental utiliza tecnología LED de última generación combinada con geles de peróxido de alta concentración. En una sola sesión de aproximadamente una hora, podrás notar una diferencia de hasta 8 tonos en el color de tus dientes. El procedimiento es seguro, indoloro y los resultados duran entre 1 y 2 años con el cuidado adecuado.",
+      "duracion": 60,
+      "precio": 45000,
+      "imagen": "/servicios/blanqueamiento.jpg"
+    },
+    {
+      "id": "ortodoncia",
+      "nombre": "Ortodoncia",
+      "descripcion": "Tratamientos de alineación dental con brackets metálicos, estéticos o alineadores invisibles.",
+      "descripcionLarga": "Ofrecemos diversas opciones de ortodoncia adaptadas a tus necesidades y estilo de vida. Contamos con brackets metálicos tradicionales, brackets estéticos de cerámica y alineadores invisibles. Durante la consulta inicial, evaluamos tu caso particular y te presentamos las mejores opciones para lograr la sonrisa que siempre quisiste. El tratamiento incluye controles mensuales y ajustes necesarios.",
+      "duracion": 45,
+      "precio": 25000,
+      "imagen": "/servicios/ortodoncia.jpg"
+    },
+    {
+      "id": "implantes",
+      "nombre": "Implantes Dentales",
+      "descripcion": "Solución permanente para reemplazar dientes perdidos con implantes de titanio de alta calidad.",
+      "descripcionLarga": "Los implantes dentales son la solución más avanzada y duradera para reemplazar dientes perdidos. Utilizamos implantes de titanio de grado médico que se integran perfectamente con el hueso maxilar. El procedimiento se realiza bajo anestesia local y con técnicas mínimamente invasivas. Una vez colocado el implante, se coloca una corona cerámica que imita perfectamente el aspecto de un diente natural.",
+      "duracion": 90,
+      "precio": 180000,
+      "imagen": "/servicios/implantes.jpg"
+    },
+    {
+      "id": "endodoncia",
+      "nombre": "Endodoncia",
+      "descripcion": "Tratamiento de conducto para salvar dientes dañados y eliminar infecciones de raíz.",
+      "descripcionLarga": "La endodoncia, comúnmente conocida como tratamiento de conducto, es un procedimiento que permite salvar dientes severamente dañados o infectados. Durante el tratamiento, removemos el tejido pulpar afectado, limpiamos y desinfectamos los conductos radiculares, y los sellamos para prevenir futuras infecciones. Utilizamos tecnología de vanguardia como localizadores electrónicos de ápice y sistemas rotatorios de última generación.",
+      "duracion": 60,
+      "precio": 35000,
+      "imagen": "/servicios/endodoncia.jpg"
+    },
+    {
+      "id": "protesis",
+      "nombre": "Prótesis Dentales",
+      "descripcion": "Prótesis fijas y removibles para restaurar la función y estética de tu sonrisa.",
+      "descripcionLarga": "Ofrecemos una amplia gama de soluciones protésicas para restaurar tu sonrisa. Desde prótesis removibles parciales o completas hasta prótesis fijas como coronas y puentes. Trabajamos con materiales de alta calidad como porcelana, zirconio y resinas de última generación. Cada prótesis es diseñada a medida para garantizar comodidad, funcionalidad y una apariencia natural.",
+      "duracion": 45,
+      "precio": 55000,
+      "imagen": "/servicios/protesis.jpg"
+    },
+    {
+      "id": "periodoncia",
+      "nombre": "Periodoncia",
+      "descripcion": "Tratamiento de encías y tejidos de soporte para prevenir y tratar enfermedades periodontales.",
+      "descripcionLarga": "La periodoncia se especializa en el cuidado de las encías y los tejidos que sostienen los dientes. Tratamos enfermedades como gingivitis y periodontitis mediante limpiezas profundas (raspado y alisado radicular), cirugías periodontales cuando son necesarias, y programas de mantenimiento personalizados. La salud de tus encías es fundamental para conservar tus dientes toda la vida.",
+      "duracion": 45,
+      "precio": 25000,
+      "imagen": "/servicios/periodoncia.jpg"
+    },
+    {
+      "id": "odontopediatria",
+      "nombre": "Odontopediatría",
+      "descripcion": "Atención dental especializada para niños en un ambiente amigable y seguro.",
+      "descripcionLarga": "Nuestro servicio de odontopediatría está diseñado para hacer que la visita al dentista sea una experiencia positiva para los más pequeños. Contamos con profesionales especializados en el trato con niños y un ambiente colorido y amigable. Realizamos desde controles preventivos y aplicación de flúor hasta tratamientos restauradores adaptados a la dentición temporal y permanente joven.",
+      "duracion": 30,
+      "precio": 12000,
+      "imagen": "/servicios/odontopediatria.jpg"
+    }
+  ],
+  "horarios": {
+    "lunes": { "inicio": "09:00", "fin": "18:00", "activo": true },
+    "martes": { "inicio": "09:00", "fin": "18:00", "activo": true },
+    "miercoles": { "inicio": "09:00", "fin": "18:00", "activo": true },
+    "jueves": { "inicio": "09:00", "fin": "18:00", "activo": true },
+    "viernes": { "inicio": "09:00", "fin": "17:00", "activo": true },
+    "sabado": { "inicio": "09:00", "fin": "13:00", "activo": true },
+    "domingo": { "inicio": "00:00", "fin": "00:00", "activo": false }
+  },
+  "turnos": [
+    {
+      "id": "turno-001",
+      "prestacionId": "limpieza-dental",
+      "fecha": "2026-08-24",
+      "hora": "10:00",
+      "paciente": {
+        "nombre": "María García",
+        "telefono": "1155443322",
+        "email": "maria.garcia@email.com"
+      },
+      "estado": "confirmado",
+      "createdAt": "2026-08-20T15:30:00Z"
+    },
+    {
+      "id": "turno-002",
+      "prestacionId": "blanqueamiento",
+      "fecha": "2026-08-25",
+      "hora": "14:00",
+      "paciente": {
+        "nombre": "Juan Pérez",
+        "telefono": "1166554433",
+        "email": "juan.perez@email.com"
+      },
+      "estado": "pendiente",
+      "createdAt": "2026-08-21T09:15:00Z"
+    },
+    {
+      "id": "turno-003",
+      "prestacionId": "ortodoncia",
+      "fecha": "2026-08-26",
+      "hora": "11:00",
+      "paciente": {
+        "nombre": "Ana López",
+        "telefono": "1177665544",
+        "email": "ana.lopez@email.com"
+      },
+      "estado": "confirmado",
+      "createdAt": "2026-08-22T11:45:00Z"
+    }
+  ],
+  "clinica": {
+    "nombre": "Dental Atique",
+    "direccion": "Tucumán 335, C1049 San Nicolás, CABA",
+    "telefono": "011 3504-5339",
+    "instagram": "@dentalatique",
+    "facebook": "dentalatique",
+    "zona": "Microcentro"
+  }
+}
